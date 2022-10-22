@@ -4,5 +4,8 @@ spring:
     path: '/console'
   datasource:
     url: 'jdbc:h2:file:./todo-db'
-#  jpa.hibernate:
-#    ddl-auto: create-drop
+    hikari:
+      username: ''
+  jpa:
+    hibernate:
+      ddl-auto: validate
