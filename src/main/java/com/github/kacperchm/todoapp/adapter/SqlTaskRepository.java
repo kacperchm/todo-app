@@ -1,5 +1,7 @@
-package com.github.kacperchm.todoapp.model;
+package com.github.kacperchm.todoapp.adapter;
 
+import com.github.kacperchm.todoapp.model.Task;
+import com.github.kacperchm.todoapp.model.TaskRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
